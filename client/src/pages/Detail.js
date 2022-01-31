@@ -12,7 +12,7 @@ import spinner from '../assets/spinner.gif';
 import { useDispatch, useSelector } from 'react-redux';
 
 function Detail() {
-  // const [state, dispatch] = useStoreContext();
+
   const state = useSelector((satet) => {
     return state;
   })
